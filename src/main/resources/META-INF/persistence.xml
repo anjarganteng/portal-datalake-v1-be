@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="id.co.telkomsigma_antasena-service_war_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>id.co.telkomsigma.portalapps.model.SummaryAdjustment</class>
+    <class>id.co.telkomsigma.portalapps.model.AdjustmentThb</class>
+    <class>id.co.telkomsigma.portalapps.model.CoaBot</class>
+    <class>id.co.telkomsigma.portalapps.model.ReverseRepoSupport</class>
+    <class>id.co.telkomsigma.portalapps.model.Wesel</class>
+    <class>id.co.telkomsigma.portalapps.model.Bilyet</class>
+    <class>id.co.telkomsigma.portalapps.model.Loan</class>
+    <class>id.co.telkomsigma.portalapps.model.IrrevocableLc</class>
+    <class>id.co.telkomsigma.portalapps.model.BangkitPra</class>
+    <class>id.co.telkomsigma.portalapps.model.BankGuarantee</class>
+    <class>id.co.telkomsigma.portalapps.model.Securities</class>
+    <class>id.co.telkomsigma.portalapps.model.Kpmm</class>
+    <class>id.co.telkomsigma.portalapps.model.MapLoanType</class>
+    <class>id.co.telkomsigma.portalapps.model.Dividen</class>
+    <class>id.co.telkomsigma.portalapps.model.IntercompanyTransactionKbank</class>
+    <class>id.co.telkomsigma.portalapps.model.IntercompanyTransactionGroup</class>
+    <class>id.co.telkomsigma.portalapps.model.InvestmentNet</class>
+    <class>id.co.telkomsigma.portalapps.model.ShortTermEmployeeBenefits</class>
+    <class>id.co.telkomsigma.portalapps.model.PostEmploymentBenefitsEmployeeId</class>
+    <class>id.co.telkomsigma.portalapps.model.PostEmploymentBenefits</class>
+    <class>id.co.telkomsigma.portalapps.model.OtherBenefitsPaid</class>
+    <class>id.co.telkomsigma.portalapps.model.FundingConcentrationInterbank</class>
+    <class>id.co.telkomsigma.portalapps.model.CifToFi</class>
+    <class>id.co.telkomsigma.portalapps.model.DeferredTax</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/portal_apps_ng?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="root"/>
+    </properties>
+  </persistence-unit>
+</persistence>
